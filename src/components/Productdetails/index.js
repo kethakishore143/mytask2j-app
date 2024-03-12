@@ -1,15 +1,22 @@
 import { Component } from "react";
+
 import Header from "../Header";
+
+
 import "./index.css";
 
 class Productdetails extends Component {
-  state = { apiSpecificProductData: {} };
+  state = { apiSpecificProductData: [] };
+
   componentDidMount() {
     this.getSpecificProduct();
   }
 
   displaySpecificProduct = (apiSpecificProductData) => {
+    
+
     const {
+      id,
       category,
       description,
       image,
@@ -45,21 +52,15 @@ class Productdetails extends Component {
     const data = await response.json();
     console.log(data);
     if (response.ok) {
-      const updateData = {
-        id: data.id,
-        category: data.category,
-        description: data.description,
-        image: data.image,
-        price: data.price,
-        rating: data.rating,
-        title: data.title,
-      };
-      this.setState({ apiSpecificProductData: updateData });
+      
+      this.setState({ apiSpecificProductData: data });
     }
+   
   };
 
   render() {
     const { apiSpecificProductData } = this.state;
+
     return (
       <div>
         <Header />

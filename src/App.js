@@ -1,15 +1,15 @@
-import { Route, Routes} from "react-router-dom";
-
+import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Allproducts from "./components/Allproducts";
 import Productdetails from "./components/Productdetails";
-
 import "./App.css";
 
 const App = () => (
-  <Routes>
-    <Route path="/" element={<Allproducts />} />
-    <Route exact path="/products/:id" element={<Productdetails />} />
-  </Routes>
+  
+    <Switch>
+      <Route exact path="/" component={Allproducts} />
+      <Route exact path="/products/:id" component={Productdetails} />
+    </Switch>
+  
 );
 
 export default App;

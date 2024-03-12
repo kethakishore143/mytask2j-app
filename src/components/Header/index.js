@@ -7,8 +7,11 @@ const Header = () => (
       <h1>Shopping</h1>
     </div>
     <ul className="nav-items">
+      <Link to="/" className="link-item">
       <li>Home</li>
-      <Link to="/products">
+      </Link>
+      
+      <Link to="/" className="link-item">
         <li>products</li>
       </Link>
       <li>

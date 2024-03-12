@@ -1,8 +1,8 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import Header from "../Header";
 
-import "./index.css";
+import "./index.css"
 
 class Allproducts extends Component {
   state = { Apidata: [] };
@@ -45,7 +45,7 @@ class Allproducts extends Component {
     let response = await fetch("https://fakestoreapi.com/products");
     let data = await response.json();
 
-    if (response.ok === true) {
+    if (response.ok ) {
       this.setState({ Apidata: data });
     }
   };

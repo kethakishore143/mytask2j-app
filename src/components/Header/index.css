@@ -14,7 +14,11 @@
   
   .nav-items li {
     list-style-type: none;
-    text-decoration: none;
+    
     padding: 20px;
+  }
+
+  .link-item {
+    text-decoration: none;
   }
   
