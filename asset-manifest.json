@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mytask2j-app/static/css/main.ffdf20b7.css",
-    "main.js": "/mytask2j-app/static/js/main.f53ac529.js",
+    "main.js": "/mytask2j-app/static/js/main.7b04db35.js",
     "index.html": "/mytask2j-app/index.html",
     "main.ffdf20b7.css.map": "/mytask2j-app/static/css/main.ffdf20b7.css.map",
-    "main.f53ac529.js.map": "/mytask2j-app/static/js/main.f53ac529.js.map"
+    "main.7b04db35.js.map": "/mytask2j-app/static/js/main.7b04db35.js.map"
   },
   "entrypoints": [
     "static/css/main.ffdf20b7.css",
-    "static/js/main.f53ac529.js"
+    "static/js/main.7b04db35.js"
   ]
 }
