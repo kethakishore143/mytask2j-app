@@ -6,7 +6,7 @@ import "./App.css";
 const App = () => (
   
     <Switch>
-      <Route exact path="/" component={Allproducts} />
+      <Route exact path="/mytask2j-app" component={Allproducts} />
       <Route exact path="/products/:id" component={Productdetails} />
     </Switch>
   
