@@ -1,0 +1,25 @@
+.list-items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .list-items {
+    list-style-type: none;
+    margin: 10px;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    background-color: aliceblue;
+  }
+  
+  .images {
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+  }
+  

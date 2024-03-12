@@ -1,0 +1,20 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightgrey;
+  }
+  
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-items li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
